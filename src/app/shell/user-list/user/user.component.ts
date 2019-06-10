@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-child-a',
-  templateUrl: './child-a.component.html',
-  styleUrls: ['./child-a.component.scss']
+  selector: 'app-user',
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.scss']
 })
-export class ChildAComponent implements OnInit {
+export class UserComponent implements OnInit {
 
   data: any;
 

@@ -1,11 +1,14 @@
 <h1>Back to Login</h1>
-<button routerLink="/login">Login</button>
+<button type="button" (click)="logoff()" >Logout</button>
 
 
 <h1>Child Routes</h1>
 <ul>
     <li>
         <a routerLink="a">A Component</a>
+    </li>
+    <li>
+        <a routerLink="users">Users List</a>
     </li>
 </ul>
 <router-outlet></router-outlet>
